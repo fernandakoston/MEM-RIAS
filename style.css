@@ -1,0 +1,93 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #dd00ff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-style: italic;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(235, 3, 223);
+}
+
+.featured-memory {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.featured-memory img {
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+}
+
+.memories {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.memories article {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 30%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.memories img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ccc;
+}
+
+.details {
+    display: none;
+}
+
+button.toggle-details {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button.toggle-details:hover {
+    background-color: #444;
+}
+
+footer {
+    background-color: #f105ee;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 20px;
+}
